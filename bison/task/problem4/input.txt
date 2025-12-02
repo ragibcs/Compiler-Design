@@ -1,0 +1,23 @@
+print "=== Testing Basic Commands ==="
+set score to 95
+set passing to 60
+print "Score has been set"
+if score > passing then print "Student PASSED!"
+if score > 100 then print "Perfect score!"
+print "=== Testing Arithmetic ==="
+add 42 and 58
+subtract 25 from 100
+add 1000 and 2000
+subtract 999 from 1000
+print "=== Testing Variables ==="
+set max to 200
+set current to 150
+if current > 100 then print "Current is above 100"
+if max > current then print "Not at maximum yet"
+print "=== Testing More Cases ==="
+set temperature to 85
+if temperature > 80 then print "It's hot today!"
+set age to 25
+if age > 18 then print "You are an adult"
+print "=== All tests completed ==="
+exit
